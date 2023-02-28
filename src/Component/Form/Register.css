@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  padding: 10px;
+  color: skyblue;
+}
+
+.register_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(126, 147, 153, 0.883);
+  margin: 5% 30%;
+  padding: 3%;
+  border-radius: 30px;
+}
+
+.register_form_input {
+  color: white;
+  border: 3px solid rgb(113, 10, 10);
+  border-radius: 20px;
+  width: 80%;
+  padding-left: 15%;
+}
+#submit_btn {
+  border-radius: 20px;
+  padding-left: 30px;
+  color: black;
+  padding-right: 30px;
+  background-color: skyblue;
+  border: 3px solid rgb(113, 10, 10);
+}
+.span_check {
+  color: rgb(113, 10, 10);
+  /* width: 10%; */
+}
+.label_check {
+  color: white;
+}

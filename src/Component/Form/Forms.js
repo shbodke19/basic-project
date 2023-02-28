@@ -1,10 +1,14 @@
 import React from "react";
 import Login from "./Login";
+import Main from "./Main";
+import Register from "./Register";
 
 const Forms = () => {
   return (
     <>
-      <Login />
+      <Main />
+      {/* <Login /> */}
+      {/* <Register /> */}
     </>
   );
 };

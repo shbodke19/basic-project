@@ -1,0 +1,22 @@
+header {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: start;
+}
+.nav {
+  text-decoration: none;
+  text-decoration: aqua;
+  color: black;
+  font-size: larger;
+  padding: 15px;
+  /* border: 3px solid red; */
+}
+.nav :hover {
+  color: black;
+}
+.active {
+  background-color: rgba(126, 147, 153, 0.883);
+  color: skyblue;
+  /* border: 3px solid red; */
+  border-radius: 10px;
+}
